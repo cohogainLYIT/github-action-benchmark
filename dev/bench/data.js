@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652627910393,
+  "lastUpdate": 1652627935805,
   "entries": {
     "Rust Benchmark": [
       {
@@ -34773,6 +34773,42 @@ window.BENCHMARK_DATA = {
             "value": 25748.425083649046,
             "unit": "ns/iter",
             "extra": "iterations: 27197\ncpu: 25745.83593778725 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dcf4f8af305dc37ed5d1f8303aecf8293675c30",
+          "message": "Update pytest.yml",
+          "timestamp": "2022-05-15T16:17:34+01:00",
+          "tree_id": "3d351bced7238ef1e4b2b992995f3c80cbfc58a3",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/2dcf4f8af305dc37ed5d1f8303aecf8293675c30"
+        },
+        "date": 1652627933193,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 199.96007061613125,
+            "unit": "ns/iter",
+            "extra": "iterations: 3498351\ncpu: 199.94523133899372 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 25744.38115537263,
+            "unit": "ns/iter",
+            "extra": "iterations: 27212\ncpu: 25743.59841246509 ns\nthreads: 1"
           }
         ]
       }

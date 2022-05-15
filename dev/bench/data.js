@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652627950227,
+  "lastUpdate": 1652628119885,
   "entries": {
     "Rust Benchmark": [
       {
@@ -9646,6 +9646,66 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 29701,
             "range": "± 5131",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dcf4f8af305dc37ed5d1f8303aecf8293675c30",
+          "message": "Update pytest.yml",
+          "timestamp": "2022-05-15T16:17:34+01:00",
+          "tree_id": "3d351bced7238ef1e4b2b992995f3c80cbfc58a3",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/2dcf4f8af305dc37ed5d1f8303aecf8293675c30"
+        },
+        "date": 1652628117181,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 213,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 27045,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 27050,
+            "range": "± 250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 8,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 43772,
+            "range": "± 96",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 9,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]

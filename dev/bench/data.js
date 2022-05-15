@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652627889955,
+  "lastUpdate": 1652627903741,
   "entries": {
     "Rust Benchmark": [
       {
@@ -37509,6 +37509,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 23.269,
             "range": "± 323",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dcf4f8af305dc37ed5d1f8303aecf8293675c30",
+          "message": "Update pytest.yml",
+          "timestamp": "2022-05-15T16:17:34+01:00",
+          "tree_id": "3d351bced7238ef1e4b2b992995f3c80cbfc58a3",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/2dcf4f8af305dc37ed5d1f8303aecf8293675c30"
+        },
+        "date": 1652627901101,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 189,
+            "range": "± 0",
+            "unit": "ns",
+            "extra": "100 samples\n152 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 24.36,
+            "range": "± 345",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652736239961,
+  "lastUpdate": 1652736245728,
   "entries": {
     "Rust Benchmark": [
       {
@@ -24795,6 +24795,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.04%",
             "unit": "ops/sec",
             "extra": "97 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l00169829@student.lyit.ie",
+            "name": "NEWUSER",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "l00169829@student.lyit.ie",
+            "name": "NEWUSER",
+            "username": "cohogainLYIT"
+          },
+          "distinct": true,
+          "id": "cb44da645acab19ca3cf456a62c57cfbe119e47f",
+          "message": "added k6 data extraction function",
+          "timestamp": "2022-05-16T22:23:28+01:00",
+          "tree_id": "aafa1f2d3cc38f984dc25187dacf84aee260227f",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/cb44da645acab19ca3cf456a62c57cfbe119e47f"
+        },
+        "date": 1652736242950,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1029366,
+            "range": "±0.91%",
+            "unit": "ops/sec",
+            "extra": "89 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 8730,
+            "range": "±0.58%",
+            "unit": "ops/sec",
+            "extra": "90 samples"
           }
         ]
       }

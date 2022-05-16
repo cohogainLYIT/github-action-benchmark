@@ -9,6 +9,7 @@ export type ToolType =
     | 'benchmarkjs'
     | 'benchmarkluau'
     | 'pytest'
+    | 'k6'
     | 'googlecpp'
     | 'catch2'
     | 'julia'

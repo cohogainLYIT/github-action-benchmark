@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652628119885,
+  "lastUpdate": 1652729161002,
   "entries": {
     "Rust Benchmark": [
       {
@@ -34869,6 +34869,42 @@ window.BENCHMARK_DATA = {
             "value": 25744.38115537263,
             "unit": "ns/iter",
             "extra": "iterations: 27212\ncpu: 25743.59841246509 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d50ed58b5de59c79efab6ce311e06249727d9b6",
+          "message": "Create output.json",
+          "timestamp": "2022-05-16T20:25:35+01:00",
+          "tree_id": "efa39bbb6d7badf6887fe0b2482bbf9a50170e8f",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/0d50ed58b5de59c79efab6ce311e06249727d9b6"
+        },
+        "date": 1652729158148,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 179.4301620790061,
+            "unit": "ns/iter",
+            "extra": "iterations: 3901369\ncpu: 179.4082026078538 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 24124.116644281137,
+            "unit": "ns/iter",
+            "extra": "iterations: 29037\ncpu: 24122.25092123842 ns\nthreads: 1"
           }
         ]
       }

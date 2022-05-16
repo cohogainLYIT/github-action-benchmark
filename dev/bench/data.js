@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652730065158,
+  "lastUpdate": 1652736236775,
   "entries": {
     "Rust Benchmark": [
       {
@@ -30689,6 +30689,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002240364357265579",
             "extra": "mean: 2.3379444592595666 msec\nrounds: 405"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l00169829@student.lyit.ie",
+            "name": "NEWUSER",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "l00169829@student.lyit.ie",
+            "name": "NEWUSER",
+            "username": "cohogainLYIT"
+          },
+          "distinct": true,
+          "id": "cb44da645acab19ca3cf456a62c57cfbe119e47f",
+          "message": "added k6 data extraction function",
+          "timestamp": "2022-05-16T22:23:28+01:00",
+          "tree_id": "aafa1f2d3cc38f984dc25187dacf84aee260227f",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/cb44da645acab19ca3cf456a62c57cfbe119e47f"
+        },
+        "date": 1652736234175,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 56620.2575712685,
+            "unit": "iter/sec",
+            "range": "stddev: 4.855510642354093e-7",
+            "extra": "mean: 17.661523329195205 usec\nrounds: 29941"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 469.29680363091427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007249961748542078",
+            "extra": "mean: 2.130847668816567 msec\nrounds: 465"
           }
         ]
       }

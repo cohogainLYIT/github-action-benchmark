@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652729213811,
+  "lastUpdate": 1652729227371,
   "entries": {
     "Rust Benchmark": [
       {
@@ -38879,6 +38879,42 @@ window.BENCHMARK_DATA = {
             "value": 49.96579287052155,
             "unit": "ns",
             "range": "± 0.1433842243841554"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d50ed58b5de59c79efab6ce311e06249727d9b6",
+          "message": "Create output.json",
+          "timestamp": "2022-05-16T20:25:35+01:00",
+          "tree_id": "efa39bbb6d7badf6887fe0b2482bbf9a50170e8f",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/0d50ed58b5de59c79efab6ce311e06249727d9b6"
+        },
+        "date": 1652729224689,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 27.003846700702393,
+            "unit": "ns",
+            "range": "± 0.014198460742866289"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 50.06434050401052,
+            "unit": "ns",
+            "range": "± 0.13408927267098975"
           }
         ]
       }

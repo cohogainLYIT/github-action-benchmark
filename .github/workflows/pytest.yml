@@ -22,6 +22,12 @@ jobs:
           cd examples/pytest
           pip install -r requirements.txt
           pytest bench.py --benchmark-json output.json
+      - name: Commit to repo
+        run: |
+          # Stage the file, commit and push
+          git add examples/pytest/output.json
+          git commit -m "test output"
+          git push origin master
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
@@ -36,9 +42,3 @@ jobs:
           comment-on-alert: true
           fail-on-alert: true
           alert-comment-cc-users: '@ktrz'
-      - name: Commit to repo
-        run: |
-          # Stage the file, commit and push
-          git add examples/pytest/output.json
-          git commit -m "test output"
-          git push origin master

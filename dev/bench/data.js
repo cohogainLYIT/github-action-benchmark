@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652729699097,
+  "lastUpdate": 1652729993696,
   "entries": {
     "Rust Benchmark": [
       {
@@ -9838,6 +9838,42 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 21461,
             "range": "± 125",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1f7fdf1ed8da0b6a5d1a5c6ef5f2b3c623ea1f6",
+          "message": "Update pytest.yml",
+          "timestamp": "2022-05-16T20:39:24+01:00",
+          "tree_id": "3dd29417f88bbe8056323ef1a26d3d79a83ca9ea",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/b1f7fdf1ed8da0b6a5d1a5c6ef5f2b3c623ea1f6"
+        },
+        "date": 1652729990774,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 225,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 28904,
+            "range": "± 159",
             "unit": "ns/iter"
           }
         ]

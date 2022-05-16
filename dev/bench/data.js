@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652729191601,
+  "lastUpdate": 1652729198210,
   "entries": {
     "Rust Benchmark": [
       {
@@ -24439,6 +24439,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.17%",
             "unit": "ops/sec",
             "extra": "98 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d50ed58b5de59c79efab6ce311e06249727d9b6",
+          "message": "Create output.json",
+          "timestamp": "2022-05-16T20:25:35+01:00",
+          "tree_id": "efa39bbb6d7badf6887fe0b2482bbf9a50170e8f",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/0d50ed58b5de59c79efab6ce311e06249727d9b6"
+        },
+        "date": 1652729195496,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1045877,
+            "range": "±1.05%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 8985,
+            "range": "±0.78%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
           }
         ]
       }

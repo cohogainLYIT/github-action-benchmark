@@ -34,7 +34,7 @@ jobs:
           git commit -m "test output"
           git push origin master
       - name: Store benchmark result
-        uses: cohogainLYIT/github-action-benchmark@master
+        uses: cohogainLYIT/github-action-benchmark@v1
         with:
           name: Python Benchmark with pytest-benchmark
           tool: 'pytest'

@@ -176,7 +176,7 @@ function extractK6BookResult(output) {
     try {
         const json = JSON.parse(output);
         const name = "Book";
-        const value = json.metrics.http_req_duration.p95;
+        const value = json.metrics.http_req_duration.max;
         const unit = 'ms';
         const range = `0`;
         const extra = `0`;
@@ -193,7 +193,7 @@ function extractK6LoginResult(output) {
     try {
         const json = JSON.parse(output);
         const name = "Login";
-        const value = json.metrics.http_req_duration.p95;
+        const value = json.metrics.http_req_duration.max;
         const unit = 'ms';
         const range = `0`;
         const extra = `0`;

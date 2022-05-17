@@ -176,8 +176,8 @@ function extractK6Result(output) {
     try {
         const json = JSON.parse(output);
         return json.benchmarks.map((bench) => {
-            const name = bench.fullname;
-            const value = bench.metrics.http_req_duration.p95;
+            const name = "k6 test";
+            const value = metrics.http_req_duration.p95;
             const unit = 'ms';
             const range = `0`;
             const extra = `0`;

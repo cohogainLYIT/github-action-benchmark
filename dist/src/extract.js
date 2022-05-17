@@ -408,10 +408,10 @@ async function extractResult(config) {
             benches = extractBenchmarkJsResult(output);
             break;        
         case 'k6_book':
-            benches = extractK6Result(output);
+            benches = extractK6BookResult(output);
             break;
         case 'k6_login':
-            benches = extractK6Result(output);
+            benches = extractK6LoginResult(output);
             break;
         case 'pytest':
             benches = extractPytestResult(output);

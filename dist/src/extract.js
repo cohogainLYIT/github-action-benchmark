@@ -390,6 +390,9 @@ async function extractResult(config) {
             break;
         case 'benchmarkjs':
             benches = extractBenchmarkJsResult(output);
+            break;        
+        case 'k6':
+            benches = extractK6Result(output);
             break;
         case 'pytest':
             benches = extractPytestResult(output);

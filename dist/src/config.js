@@ -29,6 +29,7 @@ exports.VALID_TOOLS = [
     'go',
     'benchmarkjs',
     'pytest',
+    'k6',
     'googlecpp',
     'catch2',
     'julia',

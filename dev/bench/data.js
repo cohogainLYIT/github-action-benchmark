@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652736245728,
+  "lastUpdate": 1652814399916,
   "entries": {
     "Rust Benchmark": [
       {
@@ -9946,6 +9946,42 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 28880,
             "range": "± 135",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "91154280+cohogainLYIT@users.noreply.github.com",
+            "name": "cohogainLYIT",
+            "username": "cohogainLYIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc5a80b3a51f66bd32b12c44b0c5a9bc86483942",
+          "message": "changed to use forked action",
+          "timestamp": "2022-05-17T20:06:08+01:00",
+          "tree_id": "e536574f63d478ddb634b263164a3a80281e2500",
+          "url": "https://github.com/cohogainLYIT/github-action-benchmark/commit/cc5a80b3a51f66bd32b12c44b0c5a9bc86483942"
+        },
+        "date": 1652814397231,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 178,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 24356,
+            "range": "± 168",
             "unit": "ns/iter"
           }
         ]

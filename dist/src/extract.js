@@ -175,15 +175,14 @@ function extractBenchmarkJsResult(output) {
 function extractK6BookResult(output) {
     try {
         const json = JSON.parse(output);
-      /*  return json.benchmarks.map((bench) => {
-            const json = JSON.parse(output);
-            const name = "Book";
-            const value = json.metrics.http_req_duration.max;
-            const unit = 'ms';
-            const range = `0`;
-            const extra = `0`;
-            return { name, value, unit, range, extra };
-          });*/
+      //  return json.benchmarks.map((bench) => {
+        const name = "Book";
+        const value = json.metrics.http_req_duration.max;
+        const unit = 'ms';
+        const range = `0`;
+        const extra = `0`;
+        //return { name, value, unit, range, extra };
+      //    });
         return json.map(({ name, value, unit, range, extra }) => {
             return { name, value, unit, range, extra };
         });
@@ -197,14 +196,14 @@ function extractK6BookResult(output) {
 function extractK6LoginResult(output) {
     try {
         const json = JSON.parse(output);
-     /*   return json.benchmarks.map((bench) => {
-            const name = "Login";
-            const value = json.metrics.http_req_duration.max;
-            const unit = 'ms';
-            const range = `0`;
-            const extra = `0`;
-            return { name, value, unit, range, extra };
-        });*/
+     //   return json.benchmarks.map((bench) => {
+        const name = "Login";
+        const value = json.metrics.http_req_duration.max;
+        const unit = 'ms';
+        const range = `0`;
+        const extra = `0`;
+       //     return { name, value, unit, range, extra };
+       // });*/
         return json.map(({ name, value, unit, range, extra }) => {
             return { name, value, unit, range, extra };
         });

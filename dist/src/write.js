@@ -73,6 +73,10 @@ function biggerIsBetter(tool) {
             return false;
         case 'benchmarkjs':
             return true;
+        case 'k6_login':
+            return false;
+        case 'k6_book':
+            return false;
         case 'pytest':
             return true;
         case 'googlecpp':

@@ -180,8 +180,7 @@ function extractK6BookResult(output) {
         const unit = 'ms';
         const range = `0`;
         const extra = `0`;
-        const benches = [{"name" : name, "value" :value, "unit": unit, "range": range, "extra": extra}]
-        return { benches };
+        return   [{"name" : name, "value" :value, "unit": unit, "range": range, "extra": extra}] ;
 
     } catch (err) {
         throw new Error(
@@ -198,8 +197,7 @@ function extractK6LoginResult(output) {
         const unit = 'ms';
         const range = `0`;
         const extra = `0`;
-        const benches = [{"name" : name, "value" :value, "unit": unit, "range": range, "extra": extra}]
-        return { benches };
+        return   [{"name" : name, "value" :value, "unit": unit, "range": range, "extra": extra}] ;
 
     } catch (err) {
         throw new Error(

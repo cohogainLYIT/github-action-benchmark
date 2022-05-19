@@ -180,8 +180,7 @@ function extractK6BookResult(output) {
             const value = json.metrics.http_req_duration.max;
             const unit = 'ms';
             const range = `0`;
-            const extra = `0`;
-            return { name, value, unit, range, extra };
+            return { name, value, unit, range };
         });
     } catch (err) {
         throw new Error(
@@ -198,8 +197,7 @@ function extractK6LoginResult(output) {
             const value = json.metrics.http_req_duration.max;
             const unit = 'ms';
             const range = `0`;
-            const extra = `0`;
-            return { name, value, unit, range, extra };
+            return { name, value, unit, range };
         });
     } catch (err) {
         throw new Error(
